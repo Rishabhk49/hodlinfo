@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HodlInfo</title>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container ">
+        <nav class="">
+            <!-- Logo -->
+            <a href="/" >
+                <img src="../images/HODLINFO.8f78fc06.png" alt="img"  class="logo"/>
+            </a>
+    
+            <!-- Buttons -->
+            <div class="btn-arw" >
+                <button class="btn-group">INR
+                    <svg width="15" height="15" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5 7L1 3H9L5 7Z" fill="white"/>
+                  </svg>
+                </button>
+                <button class="btn-group">BTC
+                    <svg width="15" height="15" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5 7L1 3H9L5 7Z" fill="white"/>
+                      </svg>
+                </button>
+                <button class="btn-group">BUY BTC</button>
+            </div>
+    
+            <!-- Timer and Other Elements -->
+            <div class="timbtnltdkmode">
+                <!-- timer -->
+                <div class="container2">
+                    <svg class="circle" width="50" height="50">
+                        <circle class="background" cx="25" cy="25" r="20" stroke-width="5" fill="none" />
+                        <circle class="foreground" cx="25" cy="25" r="20" stroke-width="5" fill="none" />
+                    </svg>
+                    <div class="timer" id="timer">60</div>
+                </div>
+                <!-- button -->
+                <button class="tel-btn">
+                    <img src="./images/download.png" alt="timg" width="20" height="20" class="tel-img"/>
+                    Connect Telegram
+                </button>
+            <!-- slider -->
+                <div class="theme-switch-container">
+                    <label class="theme-slider" for="theme-checkbox">
+                        <input type="checkbox" id="theme-checkbox">
+                        <div class="slider round"></div>
+                    </label>
+                </div>
+            </div>
+        </nav>
+        <!-- Hero -->
+
+        <div class="percentage">
+            <div class="text-four">0.1 %<br><p class="sm-txt">5 Mins</p></div>
+            <div class="text-four">0.96 %<br><p class="sm-txt">1 Hour</p></div>
+            <div class="text-three">
+                <p class="col-txt1">Best Price to Trade</p>
+                <div class="price">₹ 26,56,110</div>
+            <p class="col-txt2">Average BTC/INR net price including commission</p>
+            </div>
+
+            <div class="text-four">2.73 %<br><p class="sm-txt">1 Day</p></div>
+            <div class="text-four">7.51 %<br><p class="sm-txt">7 Days</p></div>
+        </div>
+
+
+        <table id="tickers-table">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Name</th>
+                    <th>Last Price</th>
+                    <th>Buy Price</th>
+                    <th>Sell Price</th>
+                    <th>Volume</th>
+                    <th>Base Unit</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Rows will be inserted here by script.js -->
+            </tbody>
+        </table>
+        <!-- <footer class="container1">
+            <button class="bottom-center-button">Add hoflinfo to your homescreen</button>
+        </footer> -->
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
